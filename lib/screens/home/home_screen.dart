@@ -33,7 +33,7 @@ class HomeScreen extends ConsumerWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
-          // 🔍 search bar ui
+          // search bar ui
           TextField(
             onChanged: (value) {
               ref.read(searchProvider.notifier).updateSearch(value);
